@@ -20,6 +20,8 @@
       <a-assets>
         <a-asset-item id="crate-obj" src="culito.obj"></a-asset-item>
         <a-asset-item id="crate-mtl" src="culito.mtl"></a-asset-item>
+        <a-asset-item id="letra-obj" src="letras.obj"></a-asset-item>
+        <a-asset-item id="letra-mtl" src="letras.mtl"></a-asset-item>
       </a-assets>
       
       
@@ -27,7 +29,7 @@
       <!-- Using the asset management system. -->
       
       <a-obj-model src="#crate-obj" mtl="#crate-mtl"   position="-1 -1 -4"  rotation="0 80 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" > </a-obj-model>
-    
+      <a-obj-model src="#letra-obj" mtl="#letra-mtl"   position="-0.4 1.5 -3"   > </a-obj-model>
      
 
       <a-cylinder position="3 0 -3" radius="0.5" height="3" color="#605F5F" shadow></a-cylinder>

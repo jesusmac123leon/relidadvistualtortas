@@ -20,8 +20,8 @@
       <a-assets>
         <a-asset-item id="crate-obj" src="culito.obj"></a-asset-item>
         <a-asset-item id="crate-mtl" src="culito.mtl"></a-asset-item>
-        <a-asset-item id="letra-obj" src="letras.obj"></a-asset-item>
-        <a-asset-item id="letra-mtl" src="letras.mtl"></a-asset-item>
+        <a-asset-item id="letra-obj" src="letras11.obj"></a-asset-item>
+        <a-asset-item id="letra-mtl" src="letras11.mtl"></a-asset-item>
       </a-assets>
       
       
@@ -29,13 +29,19 @@
       <!-- Using the asset management system. -->
       
       <a-obj-model src="#crate-obj" mtl="#crate-mtl"   position="-1 -1 -4"  rotation="0 80 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" > </a-obj-model>
-      <a-obj-model src="#letra-obj" mtl="#letra-mtl"   position="-0.4 1.5 -3"   > </a-obj-model>
+      <a-obj-model src="#letra-obj" mtl="#letra-mtl"   position="-1.7 1.7 -2"  rotation="10 0 0"  > </a-obj-model>
      
 
       <a-cylinder position="3 0 -3" radius="0.5" height="3" color="#605F5F" shadow></a-cylinder>
       <a-cylinder position="-4.8 0 -3" radius="0.5" height="3" color="#605F5F" shadow></a-cylinder>
+      <a-cylinder position="-4.8 0 -6" radius="0.5" height="3" color="#605F5F" shadow></a-cylinder>
+      <a-cylinder position="3 0 -6" radius="0.5" height="3" color="#605F5F" shadow></a-cylinder>
+      
       <a-sphere position="3 2 -3" radius="0.8" color="#F9F7F6 "  rotation="45 90 180" shadow ></a-sphere>
       <a-sphere position="-4.8 2 -3" radius="0.8" color="#F9F7F6  "  rotation="45 90 180" shadow ></a-sphere>
+       <a-sphere position="-4.8 2 -6" radius="0.8" color="#F9F7F6  "  rotation="45 90 180" shadow ></a-sphere>
+       <a-sphere position="3 2 -6" radius="0.8" color="#F9F7F6 "  rotation="45 90 180" shadow ></a-sphere>
+
       <a-plane position="-1 -4 -10" rotation="-90 0 0" width="20" height="15" color="#281001" shadow></a-plane>
       
     </a-scene>
